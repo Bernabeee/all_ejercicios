@@ -1,0 +1,170 @@
+html, body {
+    height: 100%;
+    font-family: monospace;
+    font-weight: 400;
+}
+body {
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.form {
+    display: flex; 
+    grid-column: 3;
+    align-content: center;
+    height: 10%;
+    width: 90%;
+    max-width: 700px;
+}
+
+
+
+.button {
+    background-color: #80F4E1;
+    color: white;
+    display: inline-block;
+    font-size: 2em;
+    padding: 20px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+}
+
+input {
+    flex-grow: 1;
+    padding: 0.5em 0.75em;
+    border: 1px solid #c2c2c2;
+}
+
+.button-2 {
+    padding: 0.5em 0.75em;
+    background-color: #55CBF9; 
+    color: white;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 1.35em;
+    margin-left: -10px;
+
+}
+
+.logo {
+    flex: 5 auto;
+    margin-left: 5%;
+}
+
+.logotipo {
+    width: 50px;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1%;
+    font-weight: bold;
+    border: 1px solid #CCCCCC;
+    margin: 2%;
+}
+
+.nav__link--color {
+    color: black;
+}
+
+.item {
+    flex: 1 auto;
+    padding-top: 1%;
+}
+
+.item1{
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex: 1 auto;
+    width: 40%;
+    height: 15%;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center
+}
+
+.content__box {
+    flex: 3 auto;
+    padding: 2%;
+    margin: 3%;
+    background-color: #FF729F; 
+    color: white;
+    height: 40%;
+    width: 20%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+}
+
+.container-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.row__image {
+    display: flex;
+    flex: 1 auto;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+        
+}
+
+.box-down {
+    margin: 1%;
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+
+.img--size {
+    width: 100%;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+
+
+
+
+
+
